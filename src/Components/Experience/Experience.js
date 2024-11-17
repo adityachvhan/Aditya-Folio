@@ -50,7 +50,7 @@ const ProjectList = () => {
                     backgroundColor: "white",
                     maxWidth: 420,
                     margin: "0 auto",
-                    height: 320, // Match height to other component if needed
+                    height: 300, // Match height to other component if needed
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",

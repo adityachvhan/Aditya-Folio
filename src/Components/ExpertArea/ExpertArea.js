@@ -3,16 +3,18 @@ import { Grid, Box, Card, Typography } from "@mui/material";
 
 const ExpertArea = () => {
   const tools = [
-    { name: "Figma", icon: "🎨" },
-    { name: "Notion", icon: "📝" },
-    { name: "Miro", icon: "📌" },
-    { name: "Framer", icon: "⚙️" },
-    { name: "Webflow", icon: "🌐" },
-    { name: "Zeplin", icon: "✈️" },
+    { name: "Java", icon: "☕" }, // Coffee cup for Java
+    { name: "Spring", icon: "🌱" }, // Sprout for Spring
+    { name: "MySQL", icon: "🐬" }, // Dolphin for MySQL (MySQL logo)
+    { name: "MicroServices", icon: "🔗" }, // Chain link for interconnected services
+    { name: "JavaScript", icon: "📜" }, // Scroll for JavaScript
+    { name: "J2EE", icon: "🌐" }, // Globe for enterprise-scale web applications
+
   ];
 
+
   return (
-    <Card sx={{ padding: 2 }}>
+    <Card sx={{ padding: 2, height: 275 }}>
       <Typography variant="h6" gutterBottom>
         My Expert Area
       </Typography>

@@ -1,38 +1,9 @@
 .App {
   text-align: center;
+  background: linear-gradient(135deg, rgba(200, 200, 250, 0.3), rgba(250, 250, 255, 0.7)); /* Adds gradient with subtle rgba colors */
+  color: #333; /* Dark gray text for readability */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Slightly rounded corners for a softer look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
