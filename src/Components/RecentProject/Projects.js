@@ -30,6 +30,7 @@ const Projects = () => {
         <Box sx={{
             padding: 2,
             width: 400, 
+            borderRadius:5, 
         }}>
 
             {/* Project Cards Container */}

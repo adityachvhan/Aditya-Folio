@@ -14,12 +14,14 @@ export default function ProfileCard() {
     return (
         <Card
             sx={{
-                maxWidth: 450,
+                maxWidth: 400,
+                height:620,
                 mx: "auto",
                 mt: 3,
                 borderRadius: 4,
                 boxShadow: 3,
                 textAlign: "center",
+                
             }}
         >
             {/* Profile Picture */}

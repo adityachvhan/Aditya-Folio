@@ -29,7 +29,7 @@ const ProjectList = () => {
             display: "flex",
             flexDirection: "column",
             gap: 2,
-            animation: "scroll 30s linear infinite",
+            animation: "scroll 100s linear infinite",
         },
         "&:hover .scroll-container": {
             animationPlayState: "paused",
@@ -45,7 +45,7 @@ const ProjectList = () => {
             <Card
                 sx={{
                     padding: 3,
-                    borderRadius: 2,
+                    borderRadius: 5,
                     boxShadow: 3,
                     backgroundColor: "white",
                     maxWidth: 420,

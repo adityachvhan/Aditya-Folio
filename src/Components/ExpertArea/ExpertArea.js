@@ -14,7 +14,7 @@ const ExpertArea = () => {
 
 
   return (
-    <Card sx={{ padding: 2, height: 275 }}>
+    <Card sx={{ padding: 2, height: 276, borderRadius: 5}}>
       <Typography variant="h6" gutterBottom>
         My Expert Area
       </Typography>
